@@ -1,0 +1,17 @@
+RAWG.io
+&key=
+
+IGDB (TWITCH.com)
+client id = cc7xpg2ona0lsdhhvm529k1kv205l3
+client secret = nutprbumfab0c4ztstwppa3hcvdoq0
+
+"access_token": "ostcfcrhyjq74722qw4se1qe1rz8ng",
+"expires_in": 4879987,
+"token_type": "bearer"
+
+
+youtube
+key=AIzaSyAlmD-5UFXkjT40VnKa7l112MYZ9txaugM
+
+Steam
+key=0A09344E62750AF9BE102705DCC6EDB3
