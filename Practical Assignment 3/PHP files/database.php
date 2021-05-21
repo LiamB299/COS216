@@ -9,9 +9,9 @@ class Database {
     }
 
     private $host = "localhost";
-    private $user = /*"u18015001";//*/"root";
-    private $pass = /*"ORW5ZEPNIWANRQGTICMKOLHXDYVVBQVX";//*/"L19m2992@root";
-    private $name = /*"u18015001_gameculture";//*/"gameculture";
+    private $user = 
+    private $pass =
+    private $name = 
 
     //connect first time 
     private function __construct() {
