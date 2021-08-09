@@ -1,0 +1,79 @@
+body {
+    font-family: audiowide, Arial;
+}
+
+#video-title {
+    font-size: xxx-large;
+    background-color: #8699a4;
+    margin-right: 12.5%;
+    margin-left: 12.5%;
+}
+
+video {
+    width: 75%;
+    height: 60%;
+}
+
+#video {
+    text-align: center;
+}
+
+#comments {
+}
+
+.grid-container-comments {
+    display: grid;
+    grid-template-columns: 18% 18% 64%;
+    justify-content: left;
+    text-align: center;
+    background-color: dimgrey;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    column-gap: 10px;
+}
+
+.grid-item-timestamp {}
+
+.grid-item-timestamp:hover {
+    cursor: pointer;
+}
+
+.username {
+    font-size: large;
+}
+
+.grid-item-comment-text {
+    text-align: left;
+}
+
+.grid-item-posted {
+}
+
+#post-comment-block {
+    margin-left: 12.5%;
+    margin-right: 12.8%;
+}
+
+#post-button {
+    width: inherit;
+    font-size: xx-large;
+    color: whitesmoke;
+}
+
+#post-button:hover {
+    background-color: #8699a4;
+    cursor: pointer;
+}
+
+#comment-textbox {
+    width: inherit;
+}
+
+#comment-textbox > input {
+    width: 100%;
+    font-size: large;
+}
+
+#comments-title {
+    font-size: 24px;
+}
