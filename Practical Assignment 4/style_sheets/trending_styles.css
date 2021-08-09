@@ -1,0 +1,231 @@
+/***************doc***************/
+img {
+    height: inherit;
+    width: inherit;
+    float: left;
+    clear: right;
+}
+
+.clearfix {
+    overflow: hidden;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+#trend-title {
+    font-size: 100px;
+    text-justify: auto;
+    font-family: "Audiowide", sans-serif;
+    text-decoration: underline;
+}
+
+/***********filters****************/
+
+.filt-cell {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    background-color: #666666;
+    text-align: left;
+    padding-left: 20px;
+    outline-style: double;
+}
+
+/*************************************/
+
+
+/*
+.genre-dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .genre-dropbtn:hover, .genre-dropbtn:focus {
+    background-color: #3e8e41;
+    display: block;
+  }
+  
+  .genre-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .genre-drop-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    border: 1px solid #ddd;
+    z-index: 1;
+  }
+
+  .genre-drop-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .genre-drop-content a:hover {background-color: #f1f1f1}
+/************************************/
+#genre-select {
+    padding-top: 20px;
+    height: 30%;
+    margin-top: auto;
+}
+
+#plat-select {
+    height: 30%;
+}
+
+#score-select {
+    height: 30%;
+}
+
+.filter-title {
+    font-size: 25px;
+    
+}
+
+ul > li > a {
+    font-size: 18px;
+    font-family: monospace, sans-serif;
+    text-decoration : none;
+    color: #00cccc;
+}
+
+ul > li > a:visited {
+    color: #006666;
+}
+
+ul > li > a:hover {
+    color: #003333;
+}
+
+/*********************************/
+/***********grid******************/
+.grid-container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 450px 450px 450px;
+    column-gap: 15px;
+    row-gap: 25px;
+    justify-content: center;
+
+}
+
+.grid-item {
+    height: 100%;    
+}
+
+/*********************************/
+.card {
+    background-color:#8c8c8c; 
+    padding: 2%; 
+    outline-style: groove;
+    outline-color: slategray;
+    height: inherit;
+}
+
+.card:hover {
+    background-color: #333333;
+}
+
+.title {
+    text-align: center;
+    font-size: 150%;
+    outline-color: grey;
+    outline-style: outset;
+    padding-top: 1%;
+    font-family: monospace, sans-serif;
+
+}
+
+.score {
+    text-align: right;
+    font-size:  110%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.artwork {
+    border: groove 5px;
+    border-color: steelblue;
+    width: 95%;
+    height: 65%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.info {
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-right: 1%;
+    padding-bottom: 2%;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70%;
+}
+
+.dev {
+    padding-top: inherit;
+    padding-bottom: inherit;
+    float: left; 
+    clear: left; 
+    width: 57%;
+    text-align: left;
+}
+
+.release {
+    padding-top: inherit;
+    padding-bottom: inherit;
+    float: left; 
+    width: 43%; 
+    clear: right; 
+    text-align: right;
+}
+
+.tags {
+    width: 100%; 
+    background-color: lightgray; 
+    clear: left;
+    outline-style: groove;
+    outline-color: silver;
+    outline-width: 150%;
+    padding: 0.2%;
+    font-size: 80%;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.genre {
+    text-align: left;
+}
+
+.platform {
+    text-align: right;
+}
+
+.button {
+    color: lightblue;
+}
+
+.button:hover {
+    color:seashell;
+    cursor: pointer;
+}
+
+label, input {
+    font-size: large;
+    font-family: audiowide, serif;
+}
+
+label {
+    color:seashell
+}
