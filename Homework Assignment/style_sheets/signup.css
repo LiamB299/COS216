@@ -1,0 +1,75 @@
+body {
+    font-family: audiowide, -apple-system, serif ;
+}
+
+form {
+    background-color: rgb(68, 67, 67);
+}
+
+.labels {
+    color: grey;
+    font-size: x-large;
+}
+
+.fields {
+    font-family: -apple-system, monospace;
+    color: hotpink;
+    width: 400px;
+    text-align: center;
+    font-size: large;
+}
+
+.fields#email {
+    width: 550px;
+}
+
+.cb {
+   font-size: medium; 
+}
+
+#apikey {
+    background-color: rgb(61, 58, 58);
+    font-size: xx-large;
+    color: indianred;
+}
+
+#login-button {
+    font-size: x-large;
+    font-family: "Audiowide", sans-serif;
+}
+
+#response-fail {
+    display: none;
+    background: #4c0909;
+    font-size: xx-large;
+    color: indianred;
+
+}
+
+#response-logged {
+    display: none;
+    background-color: green;
+    font-size: xx-large;
+}
+
+#loging-head {
+    font-size: 100px;
+    background-color: rgb(68, 67, 67);
+    padding-bottom: 1%;
+}
+
+.sections {
+    font-size: x-large;
+}
+
+.subButton {
+    font-size: xx-large;
+    background-color: rgba(0,0,0,0.82);
+    text-decoration: none;
+    color: white;
+    font-family: "Audiowide", sans-serif;
+}
+
+#login-form {
+    padding-bottom: 4%;
+}

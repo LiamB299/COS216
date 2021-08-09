@@ -1,0 +1,231 @@
+nav {
+    overflow: hidden;
+    /*background-color: #474747;*/
+    background-color: rgba(7,17,23,0.55);
+    font-family: "Audiowide", sans-serif;
+}
+
+nav > a {
+    float: left;
+    color: ivory;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav > a:hover {
+    color: #bfbfbf;
+    background-color: #737373;
+}
+
+html {
+    font-family: Audiowide, Arial, Helvetica, sans-serif;
+    /*background-color:#333333;*/
+    background-color: rgba(23,15,10,0.4);
+    text-align: center;
+}
+
+.iconify {
+    width: 55px;
+    height: 55px;
+}
+
+/************************************/
+
+
+footer {
+    background-color: grey;
+}
+
+/************************************/
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    background-color: rgba(24,19,33,0.66);
+}
+
+.modal-content {
+    background-color: dimgrey;
+    margin: 15% auto;
+    padding-top: 20px;
+    border: 2px solid black;
+    width: 80%;
+    font-size: large;
+    color: #f9f9f9;
+}
+
+#modal-img {
+    width: 80%;
+    height: 75%;
+    float: none;
+    clear: none;
+}
+
+.close#close-modal, .close#friends-close {
+    color: blueviolet;
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: #666666;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#modal-game-title {
+    font-size: large;
+}
+
+#modal-title {
+    font-size: 50px;
+}
+
+.slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 25px;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+    font-size: large;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-container {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background-color: #333333;
+    cursor: pointer;
+}
+
+#slider-out {
+    font-size: xx-large;
+}
+
+#modal-meta, #modal-m-rating {
+    font-size: xx-large;
+}
+
+/************************************/
+.friend-row {
+    border: double;
+    background-color: #666666;
+}
+
+.grid-container-friends-row, .grid-container-friends-grid {
+    border: double;
+    background: #666666;
+}
+
+.friend-big-cont-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.friend-big-cont-row {
+    display: grid;
+    grid-template-columns: 100%;
+    row-gap: 15px;
+}
+
+.grid-container-friends-row {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    justify-content: left;
+}
+
+.grid-container-friends-grid {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: left;
+}
+
+.grid-item-friends {
+    /*background-color: #303030;*/
+    background-color: #8c8c8c;
+    color: #f9f9f9;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.grid-item-friends:hover {
+    background-color: #2b2727;
+}
+
+#friends-reform {
+    background-color: #be2727;
+    font-weight: bold;
+    color: #f9f9f9;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+}
+.grid-item-friends-title {
+    background-color: #4d4d4d;
+    color: ghostwhite;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.friends-title {
+    grid-column: 1 /span 2;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.friends-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    background-color: rgba(24,19,33,0.66);
+}
+
+.friends-modal-content {
+    background-color: dimgrey;
+    margin: 15% auto;
+    padding-top: 20px;
+    border: 2px solid black;
+    width: 80%;
+    font-size: large;
+    color: #f9f9f9;
+}
+
