@@ -1,0 +1,43 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto 450px;
+    grid-template-rows: 100px 100px 100px 100px;
+    column-gap: 15px;
+    row-gap: 25px;
+    justify-content: center;
+}
+
+.grid-item {
+    height: 100%;
+    width: 100%;
+}
+
+#logo {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.ass-title {
+    font-size: 150%;
+    font-family: monospace, sans-serif;
+}
+
+.ass-title:hover {
+    color: lightslategrey;
+}
+
+#head {
+    font-size: 100px;
+    font-family: "Audiowide", sans-serif;
+}
+
+div > nav {
+    margin-top: 3%;
+}
+
+img {
+    margin: auto;
+    height: 500px;
+    width: auto;
+}

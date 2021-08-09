@@ -1,0 +1,37 @@
+nav {
+    overflow: hidden;
+    background-color: #474747;
+    font-family: "Audiowide", sans-serif;
+}
+
+nav > a {
+    float: left;
+    color: ivory;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font: 16;
+}
+
+nav > a:hover {
+    color: #bfbfbf;
+    background-color: #737373;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.iconify {
+    width: 55px;
+    height: 55px;
+}
+
+/************************************/
+
+
+body {
+    background-color:#333333;
+    text-align: center;
+}
+
