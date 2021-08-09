@@ -1,0 +1,60 @@
+.title-feat {
+    color: #009900;
+    text-decoration: underline;
+    font-size: 80px;
+    font-family: "Audiowide", sans-serif;
+}
+
+table {
+    border-color: #009900;
+}
+
+/*****************************/
+
+.img_feat {
+    width: 10cm;
+    height: 5cm;
+}
+
+.tafel {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "trirong", sans-serif;
+}
+
+.cell:hover {
+    background-color: #70db70 ;
+}
+
+.spine_dec {
+    background-color: black;
+}
+
+.spine {
+   /* transform: rotate(90deg); NO */
+   writing-mode: vertical-rl;
+   text-orientation: mixed;
+   font-family: "Audiowide", sans-serif;
+   color:black;
+   font-size: 18px;
+}
+
+.vid_style {
+    width: 700px; 
+    height: 350px;
+}
+
+.boxart {
+    width: 14cm; 
+    height: 16cm;
+}
+
+.innertable {
+    background-color:#999999;
+}
+
+#feat-boxart {
+    height: inherit;
+    width: inherit;
+}
