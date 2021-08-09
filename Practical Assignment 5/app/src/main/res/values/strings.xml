@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Assignment_5</string>
+    <string name="passwordLabel">Password</string>
+    <string name="EmailLabel">Email</string>
+    <string name="passwordText">Pass29@@</string>
+    <string name="emailText">LiamBurgess299@gmail.com</string>
+    <string name="title_activity_trending">MainActivity</string>
+    <string name="title_home">Home</string>
+    <!-- Strings used for fragments for navigation -->
+
+
+    <!-- GameCard -->
+    <string name="gameTitle">Gta</string>
+    <string name="gameScore">99</string>
+    <string name="gameDeveloper">Rockstar</string>
+    <string name="gameRelease">1999</string>
+    <string name="gamePlatforms">PS5</string>
+    <string name="gameGenres">Action</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="preferencesFrag">Preferences</string>
+
+    <!-- Preferences -->
+    <string name="GenreAction">Action</string>
+    <string name="GenreRPG">RPG</string>
+    <string name="GenreAdventure">Adventure</string>
+    <string name="GenreShooter">Shooter</string>
+    <string name="GenreRacing">Racing</string>
+    <string name="GenreIndie">Indie</string>
+    <string name="GenrePlatformer">Platformer</string>
+    <string name="GenreStrategy">Strategy</string>
+    <string name="GenreAll">All</string>
+    
+    <string name="PlatformPS4">PS4</string>
+    <string name="PlatformPS3">PS3</string>
+    <string name="PlatformPS5">PS5</string>
+    <string name="Platform360">Xbox 360</string>
+    <string name="PlatformOne">Xbox One</string>
+    <string name="PlatformSX">Xbox SX</string>
+    <string name="PlatformSwitch">Switch</string>
+    <string name="PlatformPC">PC</string>
+    <string name="PlatformAll">All</string>
+
+    <string name="Score90">90->100</string>
+    <string name="Score80">80->90</string>
+    <string name="Score70">70->80</string>
+    <string name="Score60">60->70</string>
+    <string name="ScoreAll">All</string>
+
+    <string name="SavePrefs">Save Preferences</string>
+
+
+    <string name="GenreName">Genres</string>
+    <string name="PlatformsName">Platforms</string>
+    <string name="ScoreName">Scores</string>
+
+    <!-- LogOut -->
+    <string name="LogoutName">Log Out</string>
+
+</resources>

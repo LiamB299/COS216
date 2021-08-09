@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C2A2A">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/gameCard"
+        android:layout_width="377dp"
+        android:layout_height="743dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="#00615B5B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#3C3C3C">
+
+            <ImageView
+                android:id="@+id/gameArt"
+                android:layout_width="369dp"
+                android:layout_height="390dp"
+                android:layout_marginBottom="4dp"
+                app:layout_constraintBottom_toTopOf="@+id/gamePlat"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+            <TextView
+                android:id="@+id/gameGen"
+                android:layout_width="341dp"
+                android:layout_height="114dp"
+                android:layout_marginBottom="16dp"
+                android:fadeScrollbars="false"
+                android:fontFamily="@font/audiowide"
+                android:scrollIndicators="right"
+                android:scrollbarSize="8dp"
+                android:scrollbarStyle="insideInset"
+                android:scrollbars="vertical"
+                android:text="TextView"
+                android:textColor="@color/material_on_primary_emphasis_medium"
+                android:textSize="18sp"
+                android:verticalScrollbarPosition="right"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.487"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/gameTitle"
+                android:layout_width="370dp"
+                android:layout_height="72dp"
+                android:fontFamily="@font/audiowide"
+                android:gravity="center"
+                android:text="TextView"
+                android:textColor="@color/material_on_primary_emphasis_medium"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/gameArt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.777"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.435" />
+
+            <TextView
+                android:id="@+id/gameRel"
+                android:layout_width="106dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/audiowide"
+                android:text="TextView"
+                android:textColor="@color/material_on_primary_emphasis_medium"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/gamePlat"
+                app:layout_constraintTop_toBottomOf="@+id/gameArt" />
+
+            <TextView
+                android:id="@+id/gameDev"
+                android:layout_width="348dp"
+                android:layout_height="36dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/audiowide"
+                android:scrollbars="vertical"
+                android:text="TextView"
+                android:textColor="@color/material_on_primary_emphasis_medium"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/gameGen"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.586"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/gameScore"
+                android:layout_width="57dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/audiowide"
+                android:text="TextView"
+                android:textColor="@color/material_on_primary_emphasis_medium"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.987"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/gameTitle" />
+
+            <TextView
+                android:id="@+id/gamePlat"
+                android:layout_width="225dp"
+                android:layout_height="37dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/audiowide"
+                android:text="TextView"
+                android:textColor="@color/material_on_primary_emphasis_medium"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toTopOf="@+id/gameDev"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/background"
+    tools:context=".preferences">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView2"
+                android:layout_width="372dp"
+                android:layout_height="171dp"
+                android:layout_marginTop="16dp"
+                android:background="#3F3E42"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.533"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/ChoosePlatforms"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#3F3E42"
+                    app:checkedChip="@id/ps3"
+                    app:chipSpacingHorizontal="16dp"
+                    app:chipSpacingVertical="12dp"
+                    app:singleLine="false"
+                    app:singleSelection="true">
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/ps3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#8A1F1F"
+                        android:checkable="true"
+                        android:fontFamily="@font/audiowide"
+                        android:tag="ps3"
+                        android:text="@string/PlatformPS3"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="#9D69DD" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/ps4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#8A1F1F"
+                        android:checkable="true"
+                        android:fontFamily="@font/audiowide"
+                        android:tag="ps4"
+                        android:text="@string/PlatformPS4"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="#9D69DD" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/ps5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#8A1F1F"
+                        android:checkable="true"
+                        android:fontFamily="@font/audiowide"
+                        android:tag="ps5"
+                        android:text="@string/PlatformPS5"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="#9D69DD" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/pc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#8A1F1F"
+                        android:checkable="true"
+                        android:fontFamily="@font/audiowide"
+                        android:tag="pc"
+                        android:text="@string/PlatformPC"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="#9D69DD" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/xbox360"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checkable="true"
+                        android:fontFamily="@font/audiowide"
+                        android:tag="xbox-360"
+                        android:text="@string/Platform360"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="#9D69DD" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/xboxone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#8A1F1F"
+                        android:checkable="true"
+                        android:fontFamily="@font/audiowide"
+                        android:tag="xbox-one"
+                        android:text="@string/PlatformOne"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="#9D69DD" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/xboxsx"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#8A1F1F"
+                        android:checkable="true"
+                        android:fontFamily="@font/audiowide"
+                        android:tag="xbox-sx"
+                        android:text="@string/PlatformSX"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="#9D69DD" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/ninswitch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#8A1F1F"
+                        android:checkable="true"
+                        android:fontFamily="@font/audiowide"
+                        android:tag="nintendo-switch"
+                        android:text="@string/PlatformSwitch"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="#9D69DD" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/allPlats"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#8A1F1F"
+                        android:checkable="true"
+                        android:fontFamily="@font/audiowide"
+                        android:tag="allPlats"
+                        android:text="@string/PlatformAll"
+                        android:textStyle="bold"
+                        app:chipBackgroundColor="#9D69DD" />
+
+                </com.google.android.material.chip.ChipGroup>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="275dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/audiowide"
+                android:gravity="center"
+                android:text="@string/PlatformsName"
+                android:textColor="@color/fontColor"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="235dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/audiowide"
+                android:gravity="center"
+                android:text="@string/GenreName"
+                android:textColor="@color/fontColor"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.468"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView3"
+                android:layout_width="379dp"
+                android:layout_height="148dp"
+                android:layout_marginTop="16dp"
+                android:background="#3F3E42"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/genres"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#3F3E42"
+                    app:checkedChip="@id/chip18"
+                    app:singleSelection="true">
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checkable="true"
+                        android:fontFamily="@font/audiowide"
+                        android:tag="action"
+                        android:text="@string/GenreAction"
+                        app:chipBackgroundColor="#9D69DD" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checkable="true"
+                        android:fontFamily="@font/audiowide"
+                        android:tag="rpg"
+                        android:text="@string/GenreRPG"
+                        app:chipBackgroundColor="#9D69DD" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checkable="true"
+                        android:fontFamily="@font/audiowide"
+                        android:tag="adventure"
+                        android:text="@string/GenreAdventure"
+                        app:chipBackgroundColor="#9D69DD" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checkable="true"
+                        android:fontFamily="@font/audiowide"
+                        android:tag="shooter"
+                        android:text="@string/GenreShooter"
+                        app:chipBackgroundColor="#9D69DD" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checkable="true"
+                        android:fontFamily="@font/audiowide"
+                        android:tag="racing"
+                        android:text="@string/GenreRacing"
+                        app:chipBackgroundColor="#9D69DD" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checkable="true"
+                        android:fontFamily="@font/audiowide"
+                        android:tag="indie"
+                        android:text="@string/GenreIndie"
+                        app:chipBackgroundColor="#9D69DD" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checkable="true"
+                        android:fontFamily="@font/audiowide"
+                        android:tag="platformer"
+                        android:text="@string/GenrePlatformer"
+                        app:chipBackgroundColor="#9D69DD" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checkable="true"
+                        android:fontFamily="@font/audiowide"
+                        android:tag="strategy"
+                        android:text="@string/GenreStrategy"
+                        app:chipBackgroundColor="#9D69DD" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checkable="true"
+                        android:fontFamily="@font/audiowide"
+                        android:tag="allGenres"
+                        android:text="@string/GenreAll"
+                        app:chipBackgroundColor="#9D69DD" />
+                </com.google.android.material.chip.ChipGroup>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="225dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/audiowide"
+                android:gravity="center"
+                android:text="@string/ScoreName"
+                android:textColor="@color/fontColor"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView3" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView4"
+                android:layout_width="381dp"
+                android:layout_height="61dp"
+                android:layout_marginTop="16dp"
+                android:background="#3F3E42"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5">
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/ScoresChips"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#3F3E42"
+                    app:checkedChip="@id/chip31"
+                    app:singleLine="true"
+                    app:singleSelection="true">
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checkable="true"
+                        android:tag="60"
+                        android:text="@string/Score60"
+                        app:chipBackgroundColor="#9D69DD" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checkable="true"
+                        android:tag="70"
+                        android:text="@string/Score70"
+                        app:chipBackgroundColor="#9D69DD" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checkable="true"
+                        android:tag="80"
+                        android:text="@string/Score80"
+                        app:chipBackgroundColor="#9D69DD" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip29"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checkable="true"
+                        android:tag="90"
+                        android:text="@string/Score90"
+                        app:chipBackgroundColor="#9D69DD" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checkable="true"
+                        android:tag="allScores"
+                        android:text="@string/ScoreAll"
+                        app:chipBackgroundColor="#9D69DD" />
+
+                </com.google.android.material.chip.ChipGroup>
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/SavePrefs"
+                android:layout_width="377dp"
+                android:layout_height="73dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/audiowide"
+                android:gravity="center"
+                android:text="@string/SavePrefs"
+                android:textColor="@color/fontColor"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView4" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/background"
+                app:cardBackgroundColor="@color/background"
+                app:layout_constraintTop_toBottomOf="@+id/SavePrefs"
+                tools:layout_editor_absoluteX="0dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</FrameLayout>
