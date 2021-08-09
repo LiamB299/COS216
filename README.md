@@ -1,2 +1,2 @@
 # COS216
-Internet and Website development
+Application, Internet and Website development
